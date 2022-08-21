@@ -1,0 +1,42 @@
+body {
+  background-color: whitesmoke;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px; 
+}
+
+#quote-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px 25px;
+  word-wrap: normal;
+
+  width: 600px;
+  height: 250px;
+
+  text-align: center;
+
+  -webkit-box-shadow: 0px 0px 8px 2px #bbb;
+  -moz-box-shadow: 0px 0px 8px 2px #bbb;
+  box-shadow: 0px 0px 8px 2px #bbb;
+}
+
+#text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-style: oblique;
+}
+
+#author {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
